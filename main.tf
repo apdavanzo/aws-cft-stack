@@ -1,6 +1,5 @@
-
 provider "aws" {
-  region = "${var.region}"
+  region = "us-west-1"
 }
 
 resource "aws_cloudformation_stack" "network" {
