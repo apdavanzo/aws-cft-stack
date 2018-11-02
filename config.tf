@@ -1,3 +1,8 @@
+
+provider "aws" {
+  region = "${var.region}"
+}
+
 resource "aws_cloudformation_stack" "network" {
   name = "networking-stack"
 
